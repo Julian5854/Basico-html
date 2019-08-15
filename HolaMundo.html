@@ -1,12 +1,36 @@
 <HTML>
 <Head>
    <Title>HOLA MUNDO</Title>
+   <script type="text/javascript">
+    function validar() {
+		band:
+        miCampoTexto1 = document.getElementById("nombre1");
+		miCampoTexto2 = document.getElementById("apellido1").value;
+		miCampoTexto3 = document.getElementById().value;
+		miCampoTexto4 = document.getElementById().value;
+		miCampoTexto5 = document.getElementById().value;
+		miCampoTexto6 = document.getElementById().value;
+		miCampoTexto7 = document.getElementById().value;
+		miCampoTexto8 = document.getElementById().value;
+		miCampoTexto9 = document.getElementById().value;
+		if (miCampoTexto.length == 0) {
+            band=false;			
+        }else{
+			band=true;
+		}
+    }
+</script>
 </Head>
+	<body bgcolor="#1DD6E6">
 <body>
+<form id="form1" method="GET" onsubmit="return validar()">
    <h1>HOLA MUNDO</h1>
    <p>Hola Mundo</p>
+   <font color="blue" face="arial">
+	<h1 align="center"><i>ESTUDIANTES</i></h1>
+  </font>
    <table>
-   <table border="2">
+   <table border="2" style="margin: 0 auto"; bgcolor="#2A86A2">
       <Tr>	  
 	     <Td>
 		    <h2>Nombre</H2></Td>
@@ -17,36 +41,42 @@
 	  </Tr>
 	  <Tr>	  
 	     <Td>
-		    <h2>David</H2></Td>
+		    <font color="blue" face="verdana"></font>
+			<input type="text" id="nombre1" name="nombre1"></input></Td>
 		 <Td>
-		    <h2>Vega</H2></Td>
+		    <input type="text" id="apellido1" name="apellido1"></input></Td>
 		 <Td>
-		    <h2>18</H2></Td>
+		    <input type="number" id="edad1" name="edad1"></input></Td>
 	  </Tr>
 	  <Tr>	  
 	     <Td>
-		    <h2>Julian</H2></Td>
+		    <input type="text" id="nombre2" name="nombre2"></input></Td>
 		 <Td>
-		    <h2>Lopez</H2></Td>
+		    <input type="text" id="apellido2" name="apellido2"></input></Td>
 		 <Td>
-		    <h2>18</H2></Td>
+		    <input type="number" id="edad2" name="edad2"></input></Td>
 	  </Tr>
 	  <Tr>	  
 	     <Td>
-		    <h2>Sebastian</H2></Td>
+		    <input type="text" id="nombre3" name="nombre3"></input></Td>
 		 <Td>
-		    <h2>Morrales</H2></Td>
+		    <input type="text" id="apellido3" name="apellido3"></input></Td>
 		 <Td>
-		    <h2>18</H2></Td>
+		    <input type="number" id="edad3" name="edad3"></input></Td>
 	  </Tr>
 	  <Tr>	  
 	     <Td>
-		    <button name ="button">Botones varios</button></Td><td colspan ="2" rowspan ="2"><img src="descarga.jpg"></img></td>
+		    <button name ="enviar">Enviar</button></Td><td colspan ="2" rowspan ="2"><img src="descarga.jpg" action="aterrizajeaje.html" img></td>
 	  </Tr>
-	  <Tr>	  
+	  <script>
+		if (band==true){
+			
+	  </script>
+	  <Tr>
 	     <Td>
-		    <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwjVk7nGoYDkAhWIpFkKHY2aCWcQPAgH">GOOGLE</a></Td>
+		    <a href="aterrizaje.html">llegada</a></Td>
 	  </Tr>
+	  </form>
    </table>
 </body>
 </html>
